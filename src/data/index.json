@@ -1,0 +1,61 @@
+{
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/Screenshot 2024-05-02 200038.png",
+      "title": "NetFrnds",
+      "description": "This is a responsive Social Media App using React and the Users data’s are fetched from MongoDb server. The features are Users can create an account, add a post, like the posts and we can update the friend's list.",
+      "link1": "Live demo",
+      "link2":"https://mern-front-b93r.onrender.com/",
+      "link3" : "GitHub",
+      "link4" : "https://github.com/daniel08424/mern_front"
+    },
+    {
+      "id": "2",
+      "src": "./img/Screenshot 2024-05-02 230610.png",
+      "title": "Quiz Application",
+      "description": "The Quiz Application is MERN stack application where Admin can create a quiz and the users can able attempt the quiz that is created. The key feature is user can track the progress by viewing the Scores of attempted quizzes.",
+      "link1": "Live demo",
+      "link2":"https://mern-front-b93r.onrender.com/",
+      "link3" : "GitHub",
+      "link4" : "https://github.com/daniel08424/To-Do_List_Application_React"
+    },
+    {
+      "id": "3",
+      "src": "./img/Screenshot 2024-05-02 222846.png",
+      "title": "To-Do List Application",
+      "description": "To-Do List Application using the React which has the features like check or uncheck the tasks, add or delete the tasks. This App is helpful to remind the users day to day task and helps the user to complete the tasks on time",
+      "link1": "Live demo",
+      "link2":"https://mern-front-b93r.onrender.com/",
+      "link3" : "GitHub",
+      "link4" : "https://github.com/daniel08424/To-Do_List_Application_React"
+      
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Dianne Russel",
+      "author_designation": "Starbucks"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kristin Watson",
+      "author_designation": "Louis Vuitton"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kathryn Murphy",
+      "author_designation": "McDonald's"
+    }
+  ]
+}
