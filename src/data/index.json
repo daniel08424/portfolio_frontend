@@ -1,36 +1,38 @@
 {
   "portfolio": [
     {
-      "id": "1",
-      "src": "./img/Screenshot 2024-05-02 200038.png",
-      "title": "NetFrnds",
-      "description": "This is a responsive Social Media App using React and the Users data’s are fetched from MongoDb server. The features are Users can create an account, add a post, like the posts and we can update the friend's list.",
-      "link1": "Live demo",
-      "link2":"https://mern-front-b93r.onrender.com/",
-      "link3" : "GitHub",
-      "link4" : "https://github.com/daniel08424/mern_front"
-    },
+  "id": "1",
+  "src": "./img/Screenshot 2024-05-02 200038.png",
+  "title": "NetFrnds",
+  "description": "A full-stack social media platform built with React, Node.js, Express, and MongoDB, allowing users to post updates, like, comment, share. Implemented secure JWT-based authentication and optimized state management using Redux. Introduced dark/light mode for improved UX and ensured 99% data security. Real-time interactions and a responsive UI built with Material UI enhanced user engagement and accessibility.",
+  "link1": "Live demo",
+  "link2": "https://mern-front-b93r.onrender.com/",
+  "link3": "GitHub",
+  "link4": "https://github.com/daniel08424/mern_front"
+}
+
+,
     {
-      "id": "2",
-      "src": "./img/Screenshot 2024-05-02 230610.png",
-      "title": "Quiz Application",
-      "description": "The Quiz Application is MERN stack application where Admin can create a quiz and the users can able attempt the quiz that is created. The key feature is user can track the progress by viewing the Scores of attempted quizzes.",
-      "link1": "Live demo",
-      "link2":"https://mern-front-b93r.onrender.com/",
-      "link3" : "GitHub",
-      "link4" : "https://github.com/daniel08424/To-Do_List_Application_React"
-    },
+  "id": "2",
+  "src": "./img/Screenshot 2025-06-20 184946.png",
+  "title": "Real Estate Website",
+  "description": "Developed a full-stack Real Estate platform enabling users to list, search, and manage properties for sale or rent. Integrated Prisma ORM with MongoDB for efficient data handling and implemented secure JWT-based authentication. Used Express.js for backend APIs and WebSocket for real-time chat, resulting in a 25% boost in engagement and a 20% improvement in backend performance.",
+  "link1": "",
+  "link2": "https://mern-front-b93r.onrender.com/",
+  "link3": "GitHub",
+  "link4": "https://github.com/daniel08424/Real_Estate_Application_main"
+},
     {
-      "id": "3",
-      "src": "./img/Screenshot 2024-05-02 222846.png",
-      "title": "To-Do List Application",
-      "description": "To-Do List Application using the React which has the features like check or uncheck the tasks, add or delete the tasks. This App is helpful to remind the users day to day task and helps the user to complete the tasks on time",
-      "link1": "Live demo",
-      "link2":"https://mern-front-b93r.onrender.com/",
-      "link3" : "GitHub",
-      "link4" : "https://github.com/daniel08424/To-Do_List_Application_React"
-      
-    }
+  "id": "3",
+  "src": "./img/Screenshot 2025-06-20 185314.png",
+  "title": "Film List",
+  "description": "Developed a Movie Watch-List Application using JavaScript, HTML, and CSS which allows users to search for movies, view movie details, and add movies to a personal watchlist. Utilized the OMDB API to retrieve movie data. MongoDB is used for managing the data, and Cookie Parser is used for managing sessions.\nTech Stacks: HTML/CSS, JavaScript, MongoDB, Mongoose, JWT",
+  "link1": "",
+  "link2": "https://mern-front-b93r.onrender.com/",
+  "link3": "GitHub",
+  "link4": "https://github.com/daniel08424/movie_watchlist"
+}
+
   ],
   "testimonial": [
     {
