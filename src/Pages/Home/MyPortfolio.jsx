@@ -46,24 +46,27 @@ export default function MyPortfolio() {
               </div>
               <div style={{display:"grid",gridTemplateColumns:"Repeat(2,1fr)", gap:"40px"}}>
                 <a href={item.link2} style={{textDecoration:"none"}}> 
-                  <p className="text-sm portfolio--link" style={{paddingLeft:"5px",fontSize:"17px"}}>
-                    {item.link1}
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 20 19"
-                      fill="none"
-                    >
-                      <path
-                        d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
-                        stroke="currentColor"
-                        stroke-width="2.66667"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </p>
+                  {item.link1 && (
+  <p className="text-sm portfolio--link" style={{ paddingLeft: "5px", fontSize: "17px" }}>
+    {item.link1}
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="16"
+      height="16"
+      viewBox="0 0 20 19"
+      fill="none"
+    >
+      <path
+        d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
+        stroke="currentColor"
+        strokeWidth="2.66667"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  </p>
+)}
+
                 </a>
 
                 <a href={item.link4} style={{textDecoration:"none"}}> 
