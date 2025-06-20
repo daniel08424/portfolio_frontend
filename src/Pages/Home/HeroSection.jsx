@@ -9,7 +9,7 @@ export default function HeroSection() {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['MERN Stack Developer'],
+      strings: ['Full Stack Developer'],
       typeSpeed: 50,
       backSpeed: 50,
     });
@@ -23,15 +23,16 @@ export default function HeroSection() {
   const handleDownload = () => {
     // Create a link element
     const link = document.createElement('a');
-    link.href = 'http://localhost:3000/Daniel ImmanSingh G_ECE_React.pdf'; // Replace with the actual path to your resume file
-    link.download = 'Daniel ImmanSingh G_ECE_React.pdf'; // Set the file name for download
+    link.href = 'https://drive.google.com/file/d/1IvF-KlZvxkDrMzm-rMopNg-J8pqHO_CX/view?usp=sharing'; // Use a relative URL
+    link.download = 'DanielImmanSingh_Resume.pdf'; // Set the file name for download
     // Append the link to the document body
     document.body.appendChild(link);
     // Trigger the click event
     link.click();
     // Clean up
     document.body.removeChild(link);
-  };
+};
+
 
   return (
     <section id="heroSection" className="hero--section">
@@ -39,7 +40,7 @@ export default function HeroSection() {
         <div className="hero--section--content">
           <h3 style={{fontWeight:"bolder",letterSpacing:"2px"}}>Hello I'm , <h2 className="hero--section--title--font text-animation" style={{textTransform:"uppercase",color:"black",fontSize:"43px"}}>Daniel ImmanSingh G</h2></h3>
           <h1 className="hero--section--title--font">
-            <span ref={el} className="hero--section-title--color"></span>{" "}
+            <span ref={el} className="hero--section-title--color"></span>{""}
 
           </h1>
 
